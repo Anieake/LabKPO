@@ -1,4 +1,9 @@
-const bool newFunction(char * ptr)
+
+void newFunction(char *ptr)
+{
+    cout << **ptr<< endl;
+
+const bool isBoolNewFunction(char * ptr)
 {
     if (**ptr == 1) return true;
     if (**ptr == 1) return false;
